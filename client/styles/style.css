@@ -1,0 +1,106 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body Styles */
+body {
+  background-color: rgb(255, 255, 255);
+  display: grid;
+  place-items: center;
+  font-family: "Tilt Warp", cursive;
+}
+
+/* Heading Styles */
+h1 {
+  margin: 50px 0 50px 0;
+  font-size: 5rem;
+  color: rgb(32, 183, 93);
+  -webkit-text-stroke: 0.5px black;
+}
+
+/* Input Styles */
+input {
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 1.2rem;
+}
+
+/* Button Styles */
+button {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Image Styles */
+img {
+  width: 30px;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center; /* Center items vertically */
+  padding: 10px 0; /* Add padding for spacing */
+  border-bottom: 1px solid #ccc; /* Add a border for separation */
+}
+
+/* User and Opponent Paragraph Styles */
+p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* User and Opponent Span Styles */
+span {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Grid Container Styles */
+#cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* Button Styles */
+.btn {
+  font-size: 2rem;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin: 0;
+  background-color: rgb(206, 203, 203);
+  border-radius: 10px;
+}
+
+/* Find Button Styles */
+#find {
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+  padding: 7px;
+  border-radius: 10px;
+  width: 250px;
+  background-color: rgb(0, 0, 0);
+}
+
+/* Button Hover Styles */
+.btn:hover {
+  background-color: rgb(226, 228, 230);
+}
+
+/* Enabled Button Styles */
+button.enabled {
+  opacity: 1;
+}
